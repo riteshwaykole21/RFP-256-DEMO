@@ -5,12 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DEMO256
+
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HelloWorld");
+            int x = 9;
+            int y = 11;
+            int sum = x + y;
+            Console.WriteLine(sum); // Print the sum of x + y
             Console.ReadLine();
         }
     }
