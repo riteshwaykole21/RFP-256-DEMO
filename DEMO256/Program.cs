@@ -13,8 +13,8 @@ namespace DEMO256
         {
             int x = 9;
             int y = 9;
-            int mul = x * y;
-            Console.WriteLine(mul); // Print the sum of x * y
+            int div = x / y;
+            Console.WriteLine(div); // Print the div of x / y
             Console.ReadLine();
         }
     }
