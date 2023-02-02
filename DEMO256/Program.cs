@@ -12,9 +12,9 @@ namespace DEMO256
         static void Main(string[] args)
         {
             int x = 9;
-            int y = 5;
-            int sub = x - y;
-            Console.WriteLine(sub); // Print the sum of x - y
+            int y = 9;
+            int mul = x * y;
+            Console.WriteLine(mul); // Print the sum of x * y
             Console.ReadLine();
         }
     }
